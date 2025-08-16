@@ -1,3 +1,4 @@
+# This code replicates the 2.3-generating-predictions-using-rag.ipynb notebook as a production-ready agent
 # imports
 
 import os

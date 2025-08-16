@@ -16,5 +16,23 @@
     },
     "estimate": 930.8824204895075,
     "discount": 225.88242048950747
+  },
+  {
+    "deal": {
+      "product_description": "The EcoFlow Delta 2 is a powerful portable power station with a capacity of 1,024Wh, perfect for charging multiple devices during outdoor adventures or emergencies. It features an AC charging input and output, solar input (solar panel not included), and offers four USB charging ports as well as two USB-C charging ports. Its compact design allows for convenient transportation while still providing ample power for various needs.",
+      "price": 490.0,
+      "url": "https://www.dealnews.com/products/Eco-Flow/Eco-Flow-Delta-2-1-024-Wh-Portable-Power-Station/473744.html?iref=rss-c142"
+    },
+    "estimate": 818.6622629310466,
+    "discount": 328.6622629310466
+  },
+  {
+    "deal": {
+      "product_description": "The Blink Outdoor 4 Camera System elevates your home security with five cameras and a Sync Module Core included. It offers 1080p HD video quality with enhanced night vision, ensuring you can keep an eye on your property around the clock. This system features a two-year battery life and a two-way audio communication feature, allowing you to respond to visitors, even when you\u2019re not home. Its compatibility with Alexa enhances usability, making it easy to integrate into your smart home ecosystem.",
+      "price": 120.0,
+      "url": "https://www.dealnews.com/products/Blink/Blink-Outdoor-4-5-Camera-System/491527.html?iref=rss-f1912"
+    },
+    "estimate": 499.6195164190235,
+    "discount": 379.6195164190235
   }
 ]

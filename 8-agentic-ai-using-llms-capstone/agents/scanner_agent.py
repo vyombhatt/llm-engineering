@@ -1,3 +1,5 @@
+# This code replicates the 3-scan-deals-to-fetch-best-deals.ipynb notebook as a production-ready agent
+
 import os
 import json
 from typing import Optional, List

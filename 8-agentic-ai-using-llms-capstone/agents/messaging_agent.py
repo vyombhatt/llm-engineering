@@ -1,3 +1,7 @@
+# This code replicates the 4-push-notifications-and-overall-agent-planing.ipynb notebook as a production-ready agent
+# This agent is a wrapper that sends messages via SMS or Pushover
+# The code includes both Twillio for SMS and Pushover for push notifications, we're going to use Pushover for this example
+
 import os
 # from twilio.rest import Client
 from agents.deals import Opportunity

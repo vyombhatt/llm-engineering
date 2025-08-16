@@ -1,3 +1,4 @@
+# This code replicates the 2.4-generateing-predictions-using-ensemble+rag.ipynb notebook as a production-ready agent
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import joblib

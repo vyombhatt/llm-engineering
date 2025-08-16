@@ -1,0 +1,10 @@
+.env
+8-agentic-ai-using-llms-capstone/train.pkl
+8-agentic-ai-using-llms-capstone/test.pkl
+8-agentic-ai-using-llms-capstone/ensemble_model.pkl
+8-agentic-ai-using-llms-capstone/random_forest_model.pkl
+8-agentic-ai-using-llms-capstone/products_vectorstore/
+8-agentic-ai-using-llms-capstone/__pycache__/
+8-agentic-ai-using-llms-capstone/agents/__pycache__/
+5-rag-vector-embeddings-and-langchain/vector_db/
+2-frontier-and-closed-source-llms-apis-gradio/.gradio

@@ -50,7 +50,7 @@ class ScrapedDeal:
         self.summary = extract(entry['summary'])
         self.url = entry['links'][0]['href']
         stuff = requests.get(self.url).content
-        soup = BeautifulSoup(stuff, 'html.parser')
+        soup = BeautifulSoup(stuff, 'html.parser') # this performs scraping from parsed URL
         content = soup.find('div', class_='content-section').get_text()
         content = content.replace('\nmore', '').replace('\n', ' ')
         if "Features" in content:
@@ -80,7 +80,7 @@ class ScrapedDeal:
         feed_iter = tqdm(feeds) if show_progress else feeds
         for feed_url in feed_iter:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries[:10]:
+            for entry in feed.entries[:10]: # take only the first 10 entries from each feed
                 deals.append(cls(entry))
                 time.sleep(0.5)
         return deals

@@ -1,3 +1,6 @@
+# This code replicates the 4-push-notifications-and-overall-agent-planing.ipynb notebook as a production-ready agent
+# This agent coordinates the ScannerAgent, EnsembleAgent, and MessagingAgent to plan and execute deal notifications
+# It's just a python code that uses the other agents to do the work
 from typing import Optional, List
 from agents.agent import Agent
 from agents.deals import ScrapedDeal, DealSelection, Deal, Opportunity

@@ -1,3 +1,6 @@
+# This code is simpy a base class for Agents
+# It provides a logging mechanism and defines the basic structure for agents in this system
+# Each agent should inherit from this class and implement its own functionality
 import logging
 
 class Agent:

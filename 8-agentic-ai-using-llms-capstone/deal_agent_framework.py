@@ -1,9 +1,13 @@
+# This is the final code that will run the the entire agentic framework
+# It inherently uses the ScannerAgent to fetch deals, the EnsembleAgent to estimate prices, and the MessagingAgent to send notifications
+# The code is designed to be run as a script, and it initializes the agents, reads/writes memory, and runs the planning agent
+# It also includes a method to visualize the data in a 3D plot using t-SNE
 import os
 import sys
 import logging
 import json
 from typing import List, Optional
-from twilio.rest import Client
+# from twilio.rest import Client
 from dotenv import load_dotenv
 import chromadb
 from agents.planning_agent import PlanningAgent
